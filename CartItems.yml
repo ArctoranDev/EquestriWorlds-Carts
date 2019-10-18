@@ -214,7 +214,7 @@ CyanSprayCan:
     material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
     display name: "<&f>Cyan Spray Can"
     durability: 36
-Light-graySprayCan:
+LightGraySprayCan:
     type: item
     debug: true
     material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
@@ -244,7 +244,7 @@ YellowSprayCan:
     material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
     display name: "<&f>Yellow Spray Can"
     durability: 41
-Light-blueSprayCan:
+LightBlueSprayCan:
     type: item
     debug: true
     material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
@@ -346,13 +346,13 @@ AcaciaPlayerWagonAnimated:
     material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
     display name: "<&f>Acacia Player Wagon Animated"
     durability: 58
-Dark OakPlayerWagon:
+DarkOakPlayerWagon:
     type: item
     debug: true
     material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
     display name: "<&f>Dark Oak Player Wagon"
     durability: 59
-Dark OakPlayerWagonAnimated:
+DarkOakPlayerWagonAnimated:
     type: item
     debug: true
     material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
