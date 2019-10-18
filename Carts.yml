@@ -14,6 +14,6 @@ Carts:
                 - narrate <context.entity>
                 - spawn armor_stand <context.entity.location> save:horseCart
                 - define horseCart <entry[horseCart].spawned_entity>
-                - define cartOffset <context.entity.location.backwards_flat[2]>
+                - define cartOffset <context.entity.location.with_pitch[0].direction.vector.mul[-3]>
                 - adjust <def[horseCart].as_entity> "attach_to:<context.entity>|<def[cartOffset].as_location>|true"
         - determine cancelled
