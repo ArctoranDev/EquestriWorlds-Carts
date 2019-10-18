@@ -13,5 +13,6 @@ Carts:
             - if <context.entity.entity_type||null> == HORSE:
                 - narrate <context.entity>
                 - spawn armor_stand <context.entity.location> save:horseCart
-                - narrate <entry[horseCart].spawned_entity>
+                - define horseCart <entry[horseCart].spawned_entity>
+                - adjust <def[horseCart].as_entity> "attach_to:<context.entity>|l@-3,0,0|true"
         - determine cancelled
