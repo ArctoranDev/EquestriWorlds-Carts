@@ -1,0 +1,14 @@
+Carts:
+    type: world
+    debug: true
+    events:
+    
+        on player clicks block with diamond_spade:
+        - if <context.item.unbreakable> && <context.item.durability> <= 60:
+            - determine cancelled
+        - narrate <context.item>
+        
+        on player right clicks entity with diamond_spade:
+        - if <context.entity.entity_type||null> == HORSE:
+            - narrate <context.entity>
+        - determine cancelled
