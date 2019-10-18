@@ -1,0 +1,192 @@
+RedJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Red Jog Cart"
+    durability: 1
+RedJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Red Jog Cart Animated"
+    durability: 2
+GreenJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Green Jog Cart"
+    durability: 3
+GreenJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Green Jog Cart Animated"
+    durability: 4
+PurpleJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Purple Jog Cart"
+    durability: 5
+PurpleJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Purple Jog Cart Animated"
+    durability: 6
+CyanJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Cyan Jog Cart"
+    durability: 7
+CyanJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Cyan Jog Cart Animated"
+    durability: 8
+Light-grayJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Light-gray Jog Cart"
+    durability: 9
+Light-grayJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Light-gray Jog Cart Animated"
+    durability: 10
+GrayJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Gray Jog Cart"
+    durability: 11
+GrayJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Gray Jog Cart Animated"
+    durability: 12
+PinkJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Pink Jog Cart"
+    durability: 13
+PinkJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Pink Jog Cart Animated"
+    durability: 14
+LimeJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Lime Jog Cart"
+    durability: 15
+LimeJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Lime Jog Cart Animated"
+    durability: 16
+YellowJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Yellow Jog Cart"
+    durability: 17
+YellowJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Yellow Jog Cart Animated"
+    durability: 18
+Light-blueJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Light-blue Jog Cart"
+    durability: 19
+Light-blueJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Light-blue Jog Cart Animated"
+    durability: 20
+MagentaJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Magenta Jog Cart"
+    durability: 21
+MagentaJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Magenta Jog Cart Animated"
+    durability: 22
+OrangeJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Orange Jog Cart"
+    durability: 23
+OrangeJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Orange Jog Cart Animated"
+    durability: 24
+BlackJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Black Jog Cart"
+    durability: 25
+BlackJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Black Jog Cart Animated"
+    durability: 26
+BrownJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Brown Jog Cart"
+    durability: 27
+BrownJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Brown Jog Cart Animated"
+    durability: 28
+BlueJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Blue Jog Cart"
+    durability: 29
+BlueJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>Blue Jog Cart Animated"
+    durability: 30
+WhiteJogCart:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>White Jog Cart"
+    durability: 31
+WhiteJogCartAnimated:
+    type: item
+    debug: true
+    material: i@DIAMOND_SPADE[unbreakable=true;flags=HIDE_UNBREAKABLE|HIDE_ATTRIBUTES]
+    display name: "<&f>White Jog Cart Animated"
+    durability: 32
