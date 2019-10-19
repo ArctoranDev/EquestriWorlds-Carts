@@ -23,9 +23,11 @@ Carts:
                     - else:
                         - define newColor "<context.item.display.split[<&sp>].get[1]>"
                     - if <context.entity.equipment.helmet.display.starts_with[<&f>Light]>:
-                        - define oldColor "<context.item.display.split[<&sp>].get[1]><context.item.display.split[<&sp>].get[2]>"
+                        - define oldColor "<context.entity.equipment.helmet.display.split[<&sp>].get[1]><context.item.display.split[<&sp>].get[2]>"
                     - else:
-                        - define oldColor "<context.item.display.split[<&sp>].get[1]>"
-                    - narrate <def[oldColor]>
-                    - narrate <def[newColor]>
+                        - define oldColor "<context.entity.equipment.helmet.display.split[<&sp>].get[1]>"
+                    - define model "<context.entity.equipment.helmet.display.replace[<def[oldColor]>].replace[<&sp>]>"
+                    - define color "<def[newColor]><def[model]>"
+                    - narrate <def[color]>
+                    - equip <context.entity> head:i@<def[color]>
         - determine cancelled
