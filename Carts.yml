@@ -19,8 +19,13 @@ Carts:
             - else if <context.entity.entity_type||null> == ARMOR_STAND:
                 - if <context.item.durability> >= 33 && <context.item.durability> <= 48:
                     - if <context.item.display.starts_with[<&f>Light]>:
-                        - define color "<context.item.display.split[<&sp>].get[1]><context.item.display.split[<&sp>].get[2]>"
+                        - define newColor "<context.item.display.split[<&sp>].get[1]><context.item.display.split[<&sp>].get[2]>"
                     - else:
-                        - define color "<context.item.display.split[<&sp>].get[1]>"
-                    - narrate <def[color]>
+                        - define newColor "<context.item.display.split[<&sp>].get[1]>"
+                    - if <context.entity.equipment.helmet.display.starts_with[<&f>Light]>:
+                        - define oldColor "<context.item.display.split[<&sp>].get[1]><context.item.display.split[<&sp>].get[2]>"
+                    - else:
+                        - define oldColor "<context.item.display.split[<&sp>].get[1]>"
+                    - narrate <def[oldColor]>
+                    - narrate <def[newColor]>
         - determine cancelled
