@@ -18,8 +18,9 @@ Carts:
                 - adjust <def[horseCart].as_entity> "attach_to:<context.entity>|l@0,0,-1.5|true"
             - else if <context.entity.entity_type||null> == ARMOR_STAND:
                 - if <context.item.durability> >= 33 && <context.item.durability> <= 48:
-                    - if <context.item.display.split[<&sp>].get[1]> == "Light":
+                    - if <context.item.display.starts_with[<&f>Light]>:
                         - define color "<context.item.display.split[<&sp>].get[1]><context.item.display.split[<&sp>].get[2]>"
                     - else:
                         - define color "<context.item.display.split[<&sp>].get[1]>"
+                    - narrate <def[color]>
         - determine cancelled
