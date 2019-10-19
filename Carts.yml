@@ -16,4 +16,11 @@ Carts:
                 - define horseCart <entry[horseCart].spawned_entity>
                 - equip <def[horseCart].as_entity> head:<context.item>
                 - adjust <def[horseCart].as_entity> "attach_to:<context.entity>|l@0,0,-1.5|true"
+            - else if <context.entity.entity_type||null> == ARMOR_STAND:
+                - if <context.item.display.split[<&sp>].get[1].to_lowercase> == "light":
+                    - define color "<context.item.display.split[<&sp>].get[1].to_titlecase><context.item.display.as_element.split[<&sp>].get[2].to_titlecase>"
+                - else:
+                    - define color <context.item.display.split[<&sp>].get[1].to_lowercase>
+                - define vehicle <def[color]><context.entity.equipment.helmet.display.as_element.split[<&sp>].get[3].to_lowercase>
+                - equip <context.entity> head:<def[vehicle].as_item>
         - determine cancelled
