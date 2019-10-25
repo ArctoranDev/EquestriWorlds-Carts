@@ -18,16 +18,32 @@ Carts:
                 - adjust <def[horseCart].as_entity> "attach_to:<context.entity>|l@0,0,-1.5|true"
             - else if <context.entity.entity_type||null> == ARMOR_STAND:
                 - if <context.item.durability> >= 33 && <context.item.durability> <= 48:
-                    - if <context.item.display.starts_with[<&f>Light]>:
-                        - define newColor "<context.item.display.split[<&sp>].get[1]><context.item.display.split[<&sp>].get[2]>"
+                    - if <context.item.display.as_element.split[<&sp>].get[1].to_lowercase> == "light":
+                        - define color "<context.item.display.as_element.split[<&sp>].get[1].to_lowercase>_<context.item.display.as_element.split[<&sp>].get[2].to_lowercase>"
                     - else:
-                        - define newColor "<context.item.display.split[<&sp>].get[1]>"
-                    - if <context.entity.equipment.helmet.display.starts_with[<&f>Light]>:
-                        - define oldColor "<context.entity.equipment.helmet.display.split[<&sp>].get[1]><context.item.display.split[<&sp>].get[2]>"
-                    - else:
-                        - define oldColor "<context.entity.equipment.helmet.display.split[<&sp>].get[1]>"
-                    - define model "<context.entity.equipment.helmet.display.replace[<def[oldColor]>].replace[<&sp>]>"
-                    - define color "<def[newColor]><def[model]>"
-                    - narrate <def[color]>
-                    - equip <context.entity> head:i@<def[color]>
+                        - define color <context.item.display.as_element.split[<&sp>].get[1].to_lowercase>
+                    - equip <context.entity> head:<yaml[vehiclelib].read[<yaml[vehicles].read[JogCart.colors.<def[color]>.model]>
         - determine cancelled
+        
+        # Vehicle Master Init #
+        on server prestart:
+        - inject VehicleStartupInit
+        on reload scripts:
+        - yaml unload id:vehiclelib
+        - yaml unload id:vehicles
+        - inject VehicleStartupInit
+        
+VehicleStartupInit:
+    type: task
+    debug: false
+    script:
+    # Check for Vehicle Library
+    - if <server.has_file[data/entities/vehiclesLib.yml]>:
+        
+        # Load Existing Vehicle Database
+        - yaml load:data/entities/vehiclesLib.yml id:vehiclelib
+    
+    # Create New One if None Exists
+    - else:
+        - yaml create id:vehicles
+        - yaml savefile:data/entities/vehiclesLib.yml id:vehiclelib

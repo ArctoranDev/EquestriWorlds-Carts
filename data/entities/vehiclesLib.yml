@@ -1,0 +1,34 @@
+JogCart:
+    colors:
+        red:
+            model: i@RedTractor
+        green:
+            model: i@GreenTractor
+        purple:
+            model: i@PurpleTractor
+        cyan:
+            model: i@CyanTractor
+        light_gray:
+            model: i@LightGrayTractor
+        gray:
+            model: i@GrayTractor
+        pink:
+            model: i@PinkTractor
+        lime:
+            model: i@LimeTractor
+        yellow:
+            model: i@YellowTractor
+        light_blue:
+            model: i@LightBlueTractor
+        magenta:
+            model: i@MagentaTractor
+        orange:
+            model: i@OrangeTractor
+        black:
+            model: i@BlackTractor
+        brown:
+            model: i@BrownTractor
+        blue:
+            model: i@BlueTractor
+        white:
+            model: i@WhiteTractor
